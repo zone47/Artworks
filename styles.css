@@ -1,0 +1,138 @@
+/* --- STYLES DE BASE --- */
+
+/* Page */
+html {
+  font-size: 100%; /* Évite un bug d'IE 6-7.*/
+}
+body {
+  margin: 0;
+  padding: 1em; /* Remettre à zéro si nécessaire. */
+  font-family: Arial, Helvetica, FreeSans, sans-serif; 
+  font-size: .8em; /* À adapter pour la police choisie. */
+  line-height: 1.4; /* À adapter au design.*/
+  color: black;
+  background:#000;
+  color:#FFF;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 .5em 0; /* Rapproche le titre du texte. */
+  line-height: 1.2;
+  font-weight: bold; /* Valeur par défaut. */
+  font-style: normal;
+}
+h1 {
+  font-size: 1.75em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+}
+h4 {
+  font-size: 1em;
+}
+
+/* Listes */
+ul, ol {
+  margin: .75em 0 .75em 32px;
+  padding: 0;
+}
+
+/* Paragraphes */
+p {
+  margin: .75em 0; /* Marges plus faibles que par défaut. */
+}
+address {
+  margin: .75em 0;
+  font-style: normal;
+}
+
+/* Liens */
+a {
+  text-decoration: underline;
+}
+
+.nav a:link {color:#e2e2e2;}
+.nav a:visited {color:#e2e2e2;}
+.nav a:hover, .nav a:focus ,.nav a:active{color: #ddd;}
+
+a:link {
+  color:#fff;
+}
+a:visited {
+  color: #AEE2F0;
+}
+a:hover, a:focus, a:active {
+  color: #e7e7e7;
+}
+
+/* Pas de bordure autour des images dans les liens */
+a img {
+  border:1px solid #333  ;
+}
+
+/* Divers éléments de type en-ligne  */
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+
+/* Formulaires */
+form, fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+input, button, select {
+  vertical-align: middle; /* Solution pb. d'alignement.  */
+}
+/* / */
+h1{
+	margin-top:0.5em;
+}
+li{
+	list-style-type:none;
+	float:left;
+	width:229px;
+	text-align:center;
+	padding-bottom:10px;
+	height:210px;
+	padding:5px;
+}
+ul{
+	padding:0;
+	margin:0;	
+	color:#d4d4d4;
+	font-size:0.9em;
+	clear:both;
+}
+ul span{
+	font-size:0.95em;
+}
+#bas{
+	clear:both;
+	padding-top:30px;
+	margin-bottom:30px;
+}
+li div{
+	height:152px;
+}
+.nav{
+	clear:both;
+	margin-bottom:12px;
+}
+.navbas{
+	clear:both;
+	padding-top:10px;	
+}
+label{
+	visibility:hidden;	
+	position:absolute;
+}
+	
+	
